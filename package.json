@@ -1,0 +1,47 @@
+{
+  "name": "belle-martinee",
+  "version": "1.0.0",
+  "description": "Belle Martinée - Luxury Fashion E-Commerce Store",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bellemartineebusiness/Belle-Martine-.git"
+  },
+  "keywords": [
+    "fashion",
+    "e-commerce",
+    "luxury"
+  ],
+  "author": "Belle Martinée",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bellemartineebusiness/Belle-Martine-/issues"
+  },
+  "homepage": "https://github.com/bellemartineebusiness/Belle-Martine-#readme",
+  "dependencies": {
+    "@stripe/react-stripe-js": "^5.6.1",
+    "@stripe/stripe-js": "^8.11.0",
+    "lucide-react": "^0.577.0",
+    "next": "^16.2.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "stripe": "^20.4.1",
+    "tailwindcss": "^3.4.19"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.27",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.1",
+    "postcss": "^8.5.8",
+    "typescript": "^5.9.3"
+  }
+}
