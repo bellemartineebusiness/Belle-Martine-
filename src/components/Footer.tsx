@@ -10,6 +10,17 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-xl font-script text-primary">Belle Martinée</h3>
             <p className="text-gray-400 text-sm">Wear Your Story</p>
+            <div className="text-xs text-gray-500 space-y-1">
+              <p>Belle Martinée</p>
+              <p>Org.nr: [ORGANISATION NUMBER]</p>
+              <p>[STREET ADDRESS]</p>
+              <p>[POSTAL CODE] [CITY], Sweden</p>
+              <p>
+                <a href="mailto:info@bellemartinee.com" className="hover:text-primary transition-colors">
+                  info@bellemartinee.com
+                </a>
+              </p>
+            </div>
           </div>
 
           {/* Shop Links */}
@@ -58,6 +69,11 @@ export default function Footer() {
                   Return Policy
                 </Link>
               </li>
+              <li>
+                <Link href="/return-policy#right-of-withdrawal" className="text-gray-400 hover:text-primary transition-colors">
+                  14-Day Right of Withdrawal
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -89,6 +105,26 @@ export default function Footer() {
         <div className="border-t border-surface-light mt-8 pt-8 text-center text-sm text-gray-400">
           <p>&copy; {new Date().getFullYear()} Belle Martinée. All rights reserved.</p>
           <p className="mt-2 text-xs">Powered by Printful &amp; Stripe</p>
+          <p className="mt-2 text-xs">
+            Disputes?{' '}
+            <a
+              href="https://www.arn.se"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary transition-colors"
+            >
+              ARN (Sweden)
+            </a>
+            {' · '}
+            <a
+              href="https://ec.europa.eu/consumers/odr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary transition-colors"
+            >
+              EU ODR Platform
+            </a>
+          </p>
         </div>
       </div>
     </footer>
