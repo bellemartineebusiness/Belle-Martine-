@@ -149,6 +149,22 @@ export default function CheckoutPage() {
                 )}
               </button>
 
+              <p className="mt-4 text-xs text-gray-500 text-center">
+                By placing an order you agree to our{' '}
+                <a href="/terms-of-service" className="text-primary hover:text-primary-dark transition-colors">
+                  Terms of Service
+                </a>{' '}
+                and{' '}
+                <a href="/privacy-policy" className="text-primary hover:text-primary-dark transition-colors">
+                  Privacy Policy
+                </a>
+                . You have a{' '}
+                <a href="/return-policy#right-of-withdrawal" className="text-primary hover:text-primary-dark transition-colors">
+                  14-day right of withdrawal
+                </a>{' '}
+                under the Swedish Distance Contracts Act.
+              </p>
+
               <div className="mt-6 pt-6 border-t border-surface-light">
                 <p className="text-xs text-gray-500 text-center">
                   Secure checkout powered by Stripe
